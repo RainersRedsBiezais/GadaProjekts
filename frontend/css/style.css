@@ -1,0 +1,175 @@
+body, html {
+    background-color: #ffffff; 
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+/* Welcome section */
+.welcome-section {
+    padding: 100px 0;
+    background-color: #f8f9fa;
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.welcome-section h1 {
+    font-size: 5rem;
+}
+
+.welcome-section p {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.welcome-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 30px;
+    background-color:  #000000;
+    border-color:  #000000;
+    color: #ffffff;
+}
+.welcome-section .btn:hover {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color:  #000000; 
+}
+.welcome-section .btn:active {
+    background-color: rgba(100, 4, 105,); 
+    color: rgba(100, 4, 105,); 
+    border-color:  rgba(100, 4, 105,); 
+}
+.content {
+    position: relative;
+    z-index: 1;
+    color: #fff; 
+    padding: 20px;
+}
+
+/* overlay for the welcome screen */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(100, 4, 105, 0.5); 
+}
+
+/* basically every button styling*/
+.muscle-button {
+    position: relative;
+}
+
+.muscle-button .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    background-color: rgba(100, 4, 105);
+    color: #ffffff;
+    font-size: 1.2rem;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 8px;
+    border-color: rgba(100, 4, 105);
+    
+}
+.muscle-button .btn:hover {
+    background-color: #ffffff; 
+    color: #000000; 
+    border-color: rgba(100, 4, 105); 
+}
+.muscle-button .btn:active {
+    background-color: #000000; 
+    color: #000000; 
+    border-color: #000000; 
+}
+
+.muscle-button .muscles-img {
+    position: relative;
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+/* Navbar styling */
+.navbar {
+    background-color: rgba(100, 4, 105);
+    border-bottom: 2px solid rgba(100, 4, 105); 
+}
+.nav-item{
+    background-color: rgb(255, 255, 255); 
+    border: 2px solid rgb(100, 4, 105); 
+    padding: 1px ;
+    border-radius: 10px; 
+    transition:  0.3s ease; 
+}
+
+.navbar-brand {
+    color: #000000; 
+    font-weight: bold; 
+    
+}
+
+.navbar-nav .nav-link {
+    color: #000000; 
+    font-weight: bold; 
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover {
+    color: rgba(100, 4, 105); 
+}
+
+/* Modal close "X" style*/
+.modal-header .close {
+    border: none;
+    outline: none;
+    background: none;
+    padding: 0;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    font-size: 20px;
+}
+/* Error page style*/
+#error-page {
+    text-align: center;
+    max-width: 6000px;
+    max-height: 6000px;
+    padding: 40px;
+    border: 2px solid #ff0000; 
+    border-radius: 10px;
+    background-color: #ffffff; 
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.507); 
+}
+
+#error-page h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #ff0000; 
+}
+
+#error-page p {
+    font-size: 1.5rem; 
+    margin-bottom: 20px;
+    color: #000000; 
+}
+
+#error-page a {
+    text-decoration: none;
+    color: #007bff; 
+    font-weight: bold;
+}
+
+#error-page a:hover {
+    text-decoration: underline;
+}
+/* container style*/
+.container{
+    padding-top: 5px;
+}
