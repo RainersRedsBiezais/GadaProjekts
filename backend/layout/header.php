@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Rainers Reds Biezais">
-    <meta name="description" content="My Favorite Country">
+    <meta name="description" content="My gym app">
     <meta name="keywords" content="HTML, CSS, JavaScript, PHP">
     <title>MuscleTarget</title>
     <link rel="stylesheet" href="frontend/css/style.css">
